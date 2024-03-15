@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+form {
+    margin: 100px 450px;
+    width: 500px;
+    height: 350px;
+    background-color: aqua;
+}
+
+#heading {
+    padding: 20px;
+    text-align: center;
+}
+
+label {
+    width: 100px;
+    display: inline-block;
+    padding: 10px 20px 10px 100px;
+}
+
+#name {
+    border-radius: 5px;
+    outline: none;
+    padding: 3px;
+    border: 2px solid white;
+    text-transform: capitalize;
+}
+
+#email {
+    border-radius: 5px;
+    outline: none;
+    padding: 3px;
+    border: 2px solid white;
+}
+
+#dob {
+    border-radius: 5px;
+    outline: none;
+    padding: 3px;
+    border: 2px solid white;
+}
+
+#age {
+    border-radius: 5px;
+    outline: none;
+    padding: 3px;
+    border: 2px solid white;
+}
+
+#selectBox {
+    border-radius: 5px;
+    outline: none;
+    padding: 5px;
+    border: 2px solid white;
+}
+
+#submitButton {
+    margin: 30px 200px;
+    padding: 0px 20px;
+    height: 30px;
+    font-weight: 600;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+}
+
+.error{
+    color: red;
+}
+
+#registrationForm span{
+    font-size: 16px;
+    padding-left: 230px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+  
+th {
+    background-color: #f2f2f2;
+}

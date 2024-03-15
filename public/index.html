@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration Form</title>
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+    <form action="/submit" method="POST">
+        <h2 id="heading">Registration Form</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" autocomplete="off"/>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <span id="emailError" class="error"></span>
+        <br>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age">
+        <span id="ageError" class="error"></span>
+        <br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob">
+        <br>
+        <button id="submitButton">Submit</button>
+    </form>
+    <table id="dataTable">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Age</th>
+          <th>Date of Birth</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+
+</body>
+</html>
